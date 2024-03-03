@@ -1,0 +1,59 @@
+body{
+    background-image: url(Baground.jpg);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#sign{
+    width: 400px;
+   background-color: rgba(255,255,255, .3);
+   /* margin:  190px 210px; */
+   margin: 180px 600px ;
+  padding: 10px 20px 30px;
+  border-radius: .5em;
+   
+}
+#sign label{
+    font-size: 20px;
+}
+
+#sign h1{
+    text-align: center;
+   
+    
+}
+.fill input{
+    display: block;
+
+}
+#but{
+    text-align: center;
+    
+}
+button{
+   margin-top: 20px;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color:rgba(255, 99, 71,.5);
+   border: 1px solid red;
+   border-radius: 0.2em;
+   
+}
+.fill input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid red;
+    border-radius: 0.2em;
+padding: 10px 10px;
+box-sizing: border-box;
+margin: 5px 0px 10px;
+
+}
+input:focus{
+    background-color: rgb(255, 148, 148);
+}
+
+.radio input{
+    accent-color: tomato;
+    transform: scale(1.5);
+
+}
